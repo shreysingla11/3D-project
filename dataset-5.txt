@@ -2,4 +2,4 @@ Here's the link to my dataset of 5 gestures. It contans division into train,test
 approximately 330 images per gesture whereas test and valid folders contain approximately 110 images per gesture respectively.
 The images were taken in 8 separate backgrounds and 2 different people to introduce variance.
 
-https://drive.google.com/drive/folders/1XedYf_zFNzKlzBYkPr45RfzlXB7vxwPd?usp=sharing
+https://drive.google.com/open?id=1XedYf_zFNzKlzBYkPr45RfzlXB7vxwPd
