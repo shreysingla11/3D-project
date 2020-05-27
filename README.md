@@ -27,6 +27,7 @@ I also made a simple cat-vs-dog classifier that classifies the images as cat or 
 server using Flask and REST Api. The pretrained model is cats_vs_dogs_acc.h5. The main app is api.py and the 
 template is index3.html. 
 
+
 Details for implementation:
 
 Project 1:
