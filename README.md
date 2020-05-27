@@ -49,9 +49,12 @@ Download the 15-gestures dataset and run the notebook (change the data-path in t
 in the working directory. To train the model for 25-way prediction, download the 25 Gestures dataset and run the notebook
 Siamese_handgestures_25_2.ipynb (change the data-path). The trained model is saved in your working directory.
 To use the pretrained model, download the model from siamese-model.txt and run the notebook Siamese_handgestures_pretrained-final.ipynb.
+
 Note: The directory structure should be-
       oneshot-test -> train (one image per gesture with name gesture.jpg)
+      
                    -> test (one test image)
+                   
       Also it would be better if you add some more images in the 25-gestures dataset to introduce more variance and
       retrain the model (only if you have a gpu instance).
       Warning: The number of images in each gesture should be same and change shape of X in Siamese_handgestures_25_2.ipynb
