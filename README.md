@@ -27,3 +27,38 @@ I also made a simple cat-vs-dog classifier that classifies the images as cat or 
 server using Flask and REST Api. The pretrained model is cats_vs_dogs_acc.h5. The main app is api.py and the 
 template is index3.html. 
 
+Details for implementation:
+
+Project 1:
+It was basically to get an idea of transfer learning and hyperparameter tuning using PyTorch library. It can be implemented
+by downloading the 5-Gestures dataset and running the notebook (Change the path to dataset in the notebook and set
+it to where you have downloaded the dataset). You can also add more images in the set as per your convenience.
+Warning: Do not try this without gpu. You can use google colab though as it provides free gpu.
+
+Project 2:
+It was to use the model for live video streams. If you want to train the model, download the Gestures-5 dataset and run
+the notebook Hand_Gestures-mymodel.ipynb (change the path to dataset) the trained model will be saved in your working
+directory. You can also use the pretrained weigths which are present in my_model-hangestures.pt. Download the weights in
+the working directory and run the notebook Handgestures-vid.ipynb. The gesture name is shown on the screen with a bar graph
+showing the probability distribution of each gesture.
+
+Project 3:
+It was to implement the idea of one-shot learning to predict hand gestures. To experiment with the 15-gestures model, 
+Download the 15-gestures dataset and run the notebook (change the data-path in the notebook). Trained model is saved
+in the working directory. To train the model for 25-way prediction, download the 25 Gestures dataset and run the notebook
+Siamese_handgestures_25_2.ipynb (change the data-path). The trained model is saved in your working directory.
+To use the pretrained model, download the model from siamese-model.txt and run the notebook Siamese_handgestures_pretrained-final.ipynb.
+Note: The directory structure should be-
+      oneshot-test -> train (one image per gesture with name gesture.jpg)
+                   -> test (one test image)
+      Also it would be better if you add some more images in the 25-gestures dataset to introduce more variance and
+      retrain the model (only if you have a gpu instance).
+      Warning: The number of images in each gesture should be same and change shape of X in Siamese_handgestures_25_2.ipynb
+               accordingly.
+               
+Project 4:
+It was to get an idea of Flask and REST api. Download the cats_vs_dogs_acc.h5 and make the directory structure as follows-
+Flask -> api2.py
+      -> cats_vs_dogs_acc.h5
+      -> templates -> index3.html
+Open the terminal in required directory and run $python api2.py
