@@ -1,0 +1,5 @@
+Here's the link to my dataset of 15 different handgestures (both one-hand and two hands). It is divided into train and valid folders. 
+Train folder contains 50 images per gesture whereas valid folder contains 15 images per gestures. It was created only to 
+test the working of Siamese network and there is not much variance in the dataset.
+
+https://drive.google.com/open?id=18nuD7HPPaWvpYDOSP47paS4Jdpry9jg6
