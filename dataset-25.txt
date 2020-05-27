@@ -1,0 +1,6 @@
+Here's the link to my dataset of 25 handgestures (both one-hand and two hands). It is divided into train and valid folders.
+The train folder contains 200 images per gesture for training and valid folder contains 50 images per gesture for validation.
+The images were taken in 6 different backgrounds and 2 persons to introduce variance. The Siamese model was trained on this 
+dataset.
+
+https://drive.google.com/open?id=1i1zEun1E04ksLsTDMDUUuelRmDfgzNqI
